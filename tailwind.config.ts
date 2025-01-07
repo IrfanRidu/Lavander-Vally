@@ -11,6 +11,7 @@ const config: Config = withUt({
   theme: {
     extend: {
       colors: {
+     
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
@@ -20,6 +21,12 @@ const config: Config = withUt({
         popover: {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))',
+        },
+        colors:{
+          'primary':"#B29CE4",
+          'secondary':"#0D0842",
+          'blackBG':"#F3F3F3",
+          'Favorite':"#FF5841",
         },
         primary: {
           DEFAULT: 'hsl(var(--primary))',
@@ -57,6 +64,7 @@ const config: Config = withUt({
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+
     },
   },
   plugins: [require('tailwindcss-animate')],
