@@ -13,7 +13,7 @@ export default async function Header() {
   const { site } = await getSetting()
   const t = await getTranslations()
   return (
-    <header className='bg-blue-300  text-white'>
+    <header className='bg-black   text-white'>
       <div className='px-2'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center'>
